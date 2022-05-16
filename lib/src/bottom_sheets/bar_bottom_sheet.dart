@@ -26,9 +26,7 @@ class BarBottomSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AnnotatedRegion<SystemUiOverlayStyle>(
-      value: SystemUiOverlayStyle.light,
-      child: Column(
+    return Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
@@ -65,8 +63,7 @@ class BarBottomSheet extends StatelessWidget {
                 ),
               ),
             ),
-          ]),
-    );
+          ]);
   }
 }
 
